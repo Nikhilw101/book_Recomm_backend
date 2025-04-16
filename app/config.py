@@ -8,7 +8,8 @@ db = SQLAlchemy()
 class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SECRET_KEY = os.urandom(24)  # Random key for session handling
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://sql12771505:WnDTrIhAD2@sql12.freesqldatabase.com:3306/sql12771505'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://sql12773552:VqZDxVM4Hv@sql12.freesqldatabase.com:3306/sql12773552'
+
 
 def create_app():
     app = Flask(__name__)
