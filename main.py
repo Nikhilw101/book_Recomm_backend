@@ -12,7 +12,7 @@ def create_app():
     app = Flask(__name__)
 
     # Configure your app, e.g., database URI
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://sql12771505:WnDTrIhAD2@sql12.freesqldatabase.com:3306/sql12771505'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://sql12773552:VqZDxVM4Hv@sql12.freesqldatabase.com:3306/sql12773552'
   # Change with your MySQL credentials
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Disable track modifications for performance
 
